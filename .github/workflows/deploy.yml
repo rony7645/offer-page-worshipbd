@@ -23,4 +23,3 @@ jobs:
           script: |
             cd /var/www/html/limitedoffer.worshipbd.com
             git pull origin main
-            npm install --production
