@@ -21409,13 +21409,13 @@ body.tp-magic-cursor #magic-cursor {
 .slide-funfact-height {
   position: relative;
   overflow: hidden;
-  height: 545px;
+  padding:300px 0;
   background-color: var(--tp-common-black);
   z-index: 1;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 768px) and (max-width: 991px) {
   .slide-funfact-height {
-    height: 400px;
+    padding:400px 0;
   }
 }
 
