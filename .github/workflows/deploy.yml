@@ -22,4 +22,5 @@ jobs:
           port: 22
           script: |
             cd /var/www/html/limitedoffer.worshipbd.com
-            git pull origin main
+            git fetch --all
+            git reset --hard origin/main
